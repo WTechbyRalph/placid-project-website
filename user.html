@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacid Project Limited</title>
+    <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    
+</head>
+<body>
+  <header class="header">
+    <div class="logo"> 
+      <img src="logo.png" alt="">
+  </div>
+  <div class="navbar">
+    <ul class="navlink">
+      <li><a href="index.html" >Home</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="contact.html">Contact us</a></li>
+    </ul>
+<div class="profile">
+
+<ul class="navlink">
+  <div class="user">
+<a href="user.html"><img src="user.png" alt=""></a>
+</div>
+</ul>
+</div>
+</div>
+ <i class='bx bx-menu' id="menuBtn"></i>
+  </div>
+</header>
+<div class="body">
+    <section>
+ <div class="containerf">
+        <!-- Left Section - Sign Up Form -->
+        <section class="left-section">
+            <div class="form-header1">
+                <h1>Create Account</h1>
+                <p>Join our community today</p>
+            </div>
+            
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-user"></i>
+                        <input type="text" id="fullName" name="fullName" placeholder="Enter your full name">
+                    </div>
+                    <span class="error-message" id="fullNameError"></span>
+                </div>
+                
+                <div class="form-group1">
+                    <label for="email">Email Address</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                    </div>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+                
+                <div class="form-group1">
+                    <label for="password">Password</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="password" name="password" placeholder="Create a password">
+                    </div>
+                    <span class="error-message" id="passwordError"></span>
+                </div>
+                
+                <div class="form-group1">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <div class="input-with-icon">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password">
+                    </div>
+                    <span class="error-message" id="confirmPasswordError"></span>
+                </div>
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                    <span class="error-message" id="termsError"></span>
+                </div>
+                
+                <button type="submit" class="submit-btn">Create Account</button>
+                
+                <div class="divider">
+                    <span>Or sign up with</span>
+                </div>
+                
+                <div class="social-login">
+                    <button type="button" class="social-btn google">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                    <button type="button" class="social-btn facebook">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </button>
+                </div>
+            </form>
+            
+            <div class="login-link">
+                <p>Already have an account? <a href="#">Sign In</a></p>
+            </div>
+        </section>
+        
+        <!-- Right Section - Welcome Content -->
+        <section class="right-section">
+            <div class="welcome-content">
+                <h2>Welcome to Pacid Project</h2>
+                <p>Join thousands of users who are already enjoying our services. Create your account and get started today!</p>
+                
+                <div class="features">
+                    <div class="feature">
+                        <span class="feature-icon"><i class="fas fa-check"></i></span>
+                        <span>Easy to use interface</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon"><i class="fas fa-shield-alt"></i></span>
+                        <span>Secure & reliable platform</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon"><i class="fas fa-headset"></i></span>
+                        <span>24/7 Customer support</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon"><i class="fas fa-rocket"></i></span>
+                        <span>Fast access to our online books</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial2">
+                    <p>"Amazing selection and warm, helpful staff. I found books I thought were lost to time"</p>
+                    <div class="author">
+                        <div class="avatar">13</div>
+                        <span>GROUP 13, The Manager</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    </div>
+    </body>
+<!-- footer -->
+  <footer class="site-footer" aria-label="Footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Pacid Project Limited</h4>
+        <p>Welcome our books lovers. Visit our library or contact us for more information.</p>
+        <p class="contact-info">Email: <a href="mailto:info@pacidproject.com">info@pacidproject.com</a><br>Phone: <a href="tel:+1234567890">+233 59 555 6174</a></p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col" aria-labelledby="newsletter-heading">
+        <h4 id="newsletter-heading">Newsletter</h4>
+        <p>Subscribe to receive updates and new arrivals.</p>
+        <form class="newsletter-form" action="#" method="post" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+          <label for="footer-email" class="visually-hidden">Email address</label>
+          <input id="footer-email" type="email" name="email" placeholder="you@example.com" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Pacid Project Limited. All rights reserved.</p>
+      
+      <div class="footer-social" aria-label="Social media">
+        <a href="#" aria-label="Facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
+        <div class="top-button">
+      <a href="#"><i class="bx bxs-up-arrow-circle"></i></a>
+    </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+  
+
+  <script src="index.js"></script>
+
+</body>
+</html>
